@@ -2,7 +2,7 @@ import { Pressable, StyleSheet, View, useColorScheme } from "react-native";
 import { Thread } from "../types/threads";
 import { Image } from "expo-image";
 import { Text } from "./Themed";
-import { timeAgo } from '../utils/time-ago';
+import { timeAgo } from "../utils/time-ago";
 import { Ionicons, Feather, AntDesign, FontAwesome } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useNavigation } from "expo-router";
