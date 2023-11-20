@@ -3,11 +3,11 @@ export interface Thread {
   author: User;
   content: string;
   image?: string;
-  replies: Reply[];
+  replies?: Reply[];
   repliesCount: number;
   likesCount: number;
   mention?: boolean;
-  mentionUser?: User;
+  mentionUser: User;
   createdAt: string;
 }
 
