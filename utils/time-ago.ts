@@ -1,4 +1,4 @@
-export function timeAgo(date: string): string {
+export function timeAgo(date: string) {
   const now = new Date();
   const diffInMs = now.getTime() - new Date(date).getTime();
 
@@ -16,6 +16,6 @@ export function timeAgo(date: string): string {
   } else if (diffInDays === 1) {
     return "Yesterday";
   } else {
-    return diffInDays + " days"
+    return diffInDays + " days";
   }
 }
