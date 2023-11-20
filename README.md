@@ -14,7 +14,7 @@ Follow these steps to get the project up and running on your local machine.
 - Lottie Animations
 - Yarn
 - Expo CLI
-- xpo Router
+- Expo Router
 - Expo Images
 
 ---
